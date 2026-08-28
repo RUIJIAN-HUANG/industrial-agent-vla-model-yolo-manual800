@@ -1,0 +1,35 @@
+{
+  "artifact_id": "yolo_manual994_yolo11n_e10_cpu",
+  "checkpoint": {
+    "filename": "best.pt",
+    "sha256": "sha256:67a70dd1f575919bde9184a993097771bbdbaa7516cdd251c1f91b2a490f1e5c",
+    "storage": "git_tracked"
+  },
+  "class_map": {
+    "path": "configs/class_map.single_bin_v2.json",
+    "sha256": "sha256:839fdb76e458f9148959e727d289a29495130ce9c868b10b57adcaab4323ba06"
+  },
+  "service_config": {
+    "path": "configs/yolo_service_config.manual994.json",
+    "sha256": "sha256:40c815abdd3766db3277e022f0ba259b1ba12c7d90e829c39fe981a2858e3d8f"
+  },
+  "perception_config": {
+    "path": "configs/perception.yolo-local.manual994.json",
+    "sha256": "sha256:e1dd2be4077bf8d2ee56bac07f3afaaf8002d058f69884b97828364e1f5c9128"
+  },
+  "training": {
+    "base": "yolo_manual800_yolo11n_e10_cpu/best.pt",
+    "epochs": 10,
+    "imgsz": 640,
+    "batch": 8,
+    "device": "cpu",
+    "seed": 7,
+    "date": "2026-08-28"
+  },
+  "metrics": {
+    "precision": 0.905,
+    "recall": 0.887,
+    "map50": 0.936,
+    "map50_95": 0.793
+  }
+}

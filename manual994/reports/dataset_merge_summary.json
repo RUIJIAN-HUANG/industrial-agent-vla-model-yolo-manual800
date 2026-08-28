@@ -1,0 +1,33 @@
+{
+  "dataset": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-28\\new-chat-2\\outputs\\industrial_v2_manual_994_trainset",
+  "total_images": 994,
+  "split_counts": {
+    "train": 810,
+    "val": 105,
+    "test": 79
+  },
+  "source_counts": {
+    "manual800": 794,
+    "extra200": 200
+  },
+  "class_id_box_counts": {
+    "0": 794,
+    "1": 1335,
+    "2": 638,
+    "3": 1056,
+    "4": 985,
+    "5": 3741,
+    "6": 775
+  },
+  "class_names": [
+    "shaft_upright",
+    "shaft_inverted",
+    "hex_nut",
+    "open_end_wrench",
+    "bin_box",
+    "bin_slot",
+    "bin_carry_handle"
+  ],
+  "errors": [],
+  "error_count": 0
+}

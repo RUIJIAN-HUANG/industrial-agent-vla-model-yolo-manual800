@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "service": "yolo",
+  "service_version": "0.2.0",
+  "mock_mode": false,
+  "host": "127.0.0.1",
+  "port": 8103,
+  "model": {
+    "architecture": "yolo11n",
+    "checkpoint_path": "best.pt",
+    "checkpoint_sha": "sha256:67a70dd1f575919bde9184a993097771bbdbaa7516cdd251c1f91b2a490f1e5c",
+    "class_map_path": "class_map.single_bin_v2.json",
+    "class_map_sha": "sha256:839fdb76e458f9148959e727d289a29495130ce9c868b10b57adcaab4323ba06",
+    "device": "cpu",
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "image_size": 640
+  },
+  "classes": [
+    "shaft_upright",
+    "shaft_inverted",
+    "hex_nut",
+    "open_end_wrench",
+    "bin_box",
+    "bin_slot",
+    "bin_carry_handle"
+  ]
+}
