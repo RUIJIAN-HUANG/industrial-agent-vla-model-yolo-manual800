@@ -1,0 +1,23 @@
+{
+  "dataset": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\manual1394_wrench_humanreview_merged\\data.yaml",
+  "base_checkpoint": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1194_v7_humanreview_finetune_e5_cpu\\weights\\best.pt",
+  "run_dir": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1394_wrench_humanreview_finetune_e5_cpu",
+  "best_checkpoint": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1394_wrench_humanreview_finetune_e5_cpu\\weights\\best.pt",
+  "epochs_requested": 5,
+  "device": "cpu",
+  "baseline_test": {
+    "metrics/precision(B)": 0.9061738095352704,
+    "metrics/recall(B)": 0.8709153877243542,
+    "metrics/mAP50(B)": 0.9340457968765223,
+    "metrics/mAP50-95(B)": 0.7648651351622363,
+    "fitness": 0.7648651351622363
+  },
+  "trained_test": {
+    "metrics/precision(B)": 0.874164155893868,
+    "metrics/recall(B)": 0.9107903936205555,
+    "metrics/mAP50(B)": 0.9344744121278769,
+    "metrics/mAP50-95(B)": 0.7753476884520195,
+    "fitness": 0.7753476884520195
+  },
+  "elapsed_seconds": 2276.11
+}

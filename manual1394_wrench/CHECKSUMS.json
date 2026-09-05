@@ -1,0 +1,25 @@
+{
+  "artifact_id": "yolo_manual1394_wrench_yolo11n_e5_cpu",
+  "checkpoint": {
+    "filename": "best.pt",
+    "sha256": "sha256:6bb9d5006e732426458322e7258d3043e367317dfd46ae54920f9605a90b9536"
+  },
+  "class_map": {
+    "path": "configs/class_map.single_bin_v2.json",
+    "sha256": "sha256:839fdb76e458f9148959e727d289a29495130ce9c868b10b57adcaab4323ba06"
+  },
+  "service_config": {
+    "path": "configs/yolo_service_config.manual1394_wrench.json",
+    "runtime_effective_sha256": "sha256:f912e17a823bce66092ab730472919c90d024007d1e0cb5a497f54edb24fcff5"
+  },
+  "training": {
+    "base": "yolo_manual1194_v7_humanreview_yolo11n_e5_cpu/best.pt",
+    "images": 1394,
+    "epochs": 5,
+    "imgsz": 640,
+    "batch": 8,
+    "device": "cpu",
+    "seed": 37,
+    "date": "2026-09-05"
+  }
+}
