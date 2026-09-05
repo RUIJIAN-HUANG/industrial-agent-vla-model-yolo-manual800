@@ -12,6 +12,7 @@ class map, checksums, model card, training/test results, and deployment config.
 |---|---|---|---|
 | Manual-800 | `yolo_manual800_yolo11n_e10_cpu` | `sha256:2a8beca3ff52f6cd7a2f81f087df71793889d7017f81156a8286f4ffb106080f` | root legacy files |
 | Manual-994 | `yolo_manual994_yolo11n_e10_cpu` | `sha256:67a70dd1f575919bde9184a993097771bbdbaa7516cdd251c1f91b2a490f1e5c` | [`manual994/`](manual994/) |
+| Manual-1394 Wrench | `yolo_manual1394_wrench_yolo11n_e5_cpu` | `sha256:6bb9d5006e732426458322e7258d3043e367317dfd46ae54920f9605a90b9536` | [`manual1394_wrench/`](manual1394_wrench/) |
 
 ## Manual-994 Summary
 
