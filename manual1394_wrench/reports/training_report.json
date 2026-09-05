@@ -1,8 +1,8 @@
 {
-  "dataset": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\manual1394_wrench_humanreview_merged\\data.yaml",
-  "base_checkpoint": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1194_v7_humanreview_finetune_e5_cpu\\weights\\best.pt",
-  "run_dir": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1394_wrench_humanreview_finetune_e5_cpu",
-  "best_checkpoint": "C:\\Users\\TJW\\Documents\\Codex\\2026-08-29\\new-chat\\outputs\\yolo_runs\\manual1394_wrench_humanreview_finetune_e5_cpu\\weights\\best.pt",
+  "dataset": "datasets/manual1394_wrench_humanreview_merged/data.yaml",
+  "base_checkpoint": "yolo_manual1194_v7_humanreview_yolo11n_e5_cpu/best.pt",
+  "run_dir": "runs/manual1394_wrench_humanreview_finetune_e5_cpu",
+  "best_checkpoint": "best.pt",
   "epochs_requested": 5,
   "device": "cpu",
   "baseline_test": {
